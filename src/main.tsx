@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Invoices from './routes/Invoices/invoices.tsx'
+import Invoices from './routes/Invoices/index.tsx'
 import Expenses from './routes/Expenses/expenses.tsx'
 import NotFound from './routes/NotFound/index.tsx'
 import Invoice from './routes/Invoices/invoice/index.tsx'
